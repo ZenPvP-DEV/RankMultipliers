@@ -1,0 +1,15 @@
+name: RankMultipliers
+version: '${project.version}'
+main: bgprotobg.net.rankmultipliers.RankMultipliers
+api-version: '1.20'
+commands:
+  multiplier:
+    description: Reloads the RankMultipliers configuration
+    usage: /<command> [reload]
+permissions:
+  multiplier.use:
+    description: Allows the player to open the multiplier menu.
+    default: true
+  multiplier.reload:
+    description: Allows the player to reload the plugin's configuration.
+    default: op

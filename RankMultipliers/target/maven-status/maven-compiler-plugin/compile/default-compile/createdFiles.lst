@@ -1,0 +1,9 @@
+bgprotobg\net\rankmultipliers\commands\MultiplierCommand.class
+bgprotobg\net\rankmultipliers\placeholders\MultiplierPlaceholders.class
+bgprotobg\net\rankmultipliers\RankMultipliers.class
+bgprotobg\net\rankmultipliers\commands\MultiplierGiveCommand.class
+bgprotobg\net\rankmultipliers\storage\DatabaseManager.class
+bgprotobg\net\rankmultipliers\listeners\MultiplierMenuListener.class
+bgprotobg\net\rankmultipliers\storage\MultiplierData.class
+bgprotobg\net\rankmultipliers\listeners\MultiplierListener.class
+bgprotobg\net\rankmultipliers\listeners\PlayerJoinListener.class

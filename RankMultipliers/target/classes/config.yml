@@ -1,0 +1,62 @@
+# Configuration for RankMultipliers plugin
+multipliers:
+  vip:
+    permission: "multiplier.vip"
+    tokens: 1.5
+    gems: 1.0
+    money: 2.0
+  star:
+    permission: "multiplier.star"
+    tokens: 2.0
+    gems: 1.0
+    money: 3.0
+  legend:
+    permission: "multiplier.legend"
+    tokens: 2.5
+    gems: 1.5
+    money: 4.0
+
+menu:
+  inventory:
+    size: 27
+    title: "&aYour Multipliers"
+    filler:
+      material: "GRAY_STAINED_GLASS_PANE"
+
+  head:
+    name: "&b%player_name%'s Boosts"
+    material: "PLAYER_HEAD"
+    slot: 14
+    lore:
+      - "&eTokens Multiplier: &f%multiplier_tokens_player%"
+      - "&aGems Multiplier: &f%multiplier_gems_player%"
+      - "&6Money Multiplier: &f%multiplier_money_player%"
+
+personal:
+  head:
+    name: "&a%player_name%'s Multipliers"
+    material: "PLAYER_HEAD"
+    slot: 12
+    lore:
+      - "&7Tokens Multiplier: %tokens_multiplier%"
+      - "&7Tokens Time Left: %tokens_time_left%"
+      - "&7Gems Multiplier: %gems_multiplier%"
+      - "&7Gems Time Left: %gems_time_left%"
+      - "&7Money Multiplier: %money_multiplier%"
+      - "&7Money Time Left: %money_time_left%"
+
+messages:
+  multiplier_expired: "&cYour %currency% multiplier has expired."
+  active_multipliers_title: "&aActive Multipliers:"
+  no_active_multipliers: "&cYou have no active multipliers."
+  active_multiplier_format: "&e%currency% Multiplier: &b%amount%x &e(&b%time_left%&e left)"
+  player_received_multiplier: "§aYou got %amount% %currency% multiplier for %time%!"
+  sender_applied_multiplier: "§aMultiplier applied to %player% for %time%."
+  player_reached_max_multiplier: "&cYou have reached the maximum boost for %currency%!"
+  no_boost: "&cNo Boost Activated"
+
+
+max-boost:
+  tokens: 150.0
+  gems: 100.0
+  money: 200.0
